@@ -24,12 +24,11 @@ else if (favColor === 'yes' || favColor === 'YES')
     {alert( 'You are correct, it is purple though!')}
 
 //Q4
-var compType = prompt ('Do I use a Mac?');
-var normalizedCompType = compType.toLowerCase();
+var compType = prompt ('Do I use a Mac?').toLowerCase();
 if(compType === 'no' )
 // console.log (compType + 'I have a Windows machine')
     {alert('Right because I use a Windows machine')}
-else if ( compType === 'yes' || compType === "YES" || compType === 'Yes')
+else if ( compType === 'yes' || compType === 'y' )
     {alert('Try Again :(')}
 
 //Q5
@@ -37,8 +36,8 @@ else if ( compType === 'yes' || compType === "YES" || compType === 'Yes')
 var favAnimal = prompt ('Is my most animal in the world, an Elephant?');
 var normalizedFavAnimal = favAnimal.toUpperCase();
 
-if (favAnimal === 'Yes' || favAnimal === 'yes' || favAnimal === 'YES')
-    {alert('Absolutely, they are the best!')}
-
-else if (favAnimal === 'no' || favAnimal === 'NO')
-    {alert('Are you kidding, Elephants are fantastic!')
+if (favAnimal === 'Yes' || favAnimal === 'yes' || favAnimal === 'YES') {
+    alert('Absolutely, they are the best!');
+} else if (favAnimal === 'no' || favAnimal === 'NO') {
+    alert('Are you kidding, Elephants are fantastic!');
+}
