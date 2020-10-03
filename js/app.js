@@ -56,3 +56,5 @@ if ( favAnimal === 'yes') {
 } else if (favAnimal === 'no' || favAnimal === 'NO') {
     alert('Are you kidding, Elephants are fantastic!');
 }
+
+alert (`Good day ${username}, I am happy you stopped by!`)
