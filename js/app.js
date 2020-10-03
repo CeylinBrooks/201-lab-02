@@ -61,6 +61,32 @@ if ( favAnimal === 'yes') {
 //Q6
 
 
+var tries = 0
+var guessNumber = 4
+var correctGuess= false;
+
+while (tries < 3 && !correctGuess){
+    var guessGame = prompt('I\'m thinking of a number between 0 and 15. Can you take a guess?')
+
+if (guessGame < 3){
+    alert(`Sorry ${username} that guess is too low`)
+} else if (guessGame > 5) {
+alert(`Aw fiddlesticks ${username} that guess is too high!`)
+} else if ( guessGame === '4') {
+    alert(`Correct ${username} !`) 
+    correctGuess = true;
+}
+}
+
+
+//Q7
+
+
+
+
+
+
+
 
 
 alert (`Good day ${username}, I am happy you stopped by!`)
