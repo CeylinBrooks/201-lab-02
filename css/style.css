@@ -1,11 +1,18 @@
 body {
     background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    color: ivory;
+   
+    
 }
+
 h1 {
     margin: 20px;
     font-size: large;
     font-weight: bold;
     text-align: center;
+    color: ivory;
+   
 }
 
 p {
@@ -13,9 +20,28 @@ p {
     color: black;
     font-size: large;
     text-align: center;
+    margin: 100px;
+    color: ivory;
 }
 
-#first-paragraph {
-    background-color: darkolivegreen;
-    color: darksalmon;
+ul {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 100px;
+    border: solid grey;
+    padding: 20px;
+    text-align: center;
+    color: ivory;
+}
+
+ol {
+    text-align: center;
+    margin-top: 20px;
+    color: ivory;
+    
+
+
 }

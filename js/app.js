@@ -57,4 +57,10 @@ if ( favAnimal === 'yes') {
     alert('Are you kidding, Elephants are fantastic!');
 }
 
+
+//Q6
+
+
+
+
 alert (`Good day ${username}, I am happy you stopped by!`)
