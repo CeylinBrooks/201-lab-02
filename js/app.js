@@ -94,37 +94,16 @@ while (attemptsRemaining > 0 && !answeredCorrect) {
     for (var i = 0; i < whatCountry.length; i++) { 
         if (guessAnswer === whatCountry[i]) {
             answeredCorrect = true;
-            alert()
-            
+            alert(`I would like to travel to ${guessAnswer}`);  
         }
     }
-}
-
-
-// var correctAnswers = ['lofi', 'rock', 'rap', 'r&b', 'pop'];
-// var guessAnswer = prompt('Guess music');
-// var attemptsRemaining = 6;
-// var answeredCorrectly = false;
-// while (attemptsRemaining > 0 && !answeredCorrectly) {
-//   attemptsRemaining--;
-//   for (var i = 0; i < correctAnswers.length; i++) {
-//     if (guessAnswer === correctAnswers[i]) {
-//       answeredCorrectly = true;
-//       alert(`Yes I do listen to ${guessAnswer}`);
-//     }
-//   }
-//   if (attemptsRemaining > 0 && !answeredCorrectly) {
-//     guessAnswer = prompt('Sorry that wasn\'t a correct answer please try again!');
-//   }
-//   if (attemptsRemaining === 0 && !answeredCorrectly) {
-//     alert ('Sorry you lose!')
-//   }
-// }
-
-
-
-
-
+    if (attemptsRemaining > 0 && !answeredCorrectly) {
+            guessAnswer = prompt('Sorry that wasn\'t a correct answer please try again!');
+          }
+          if (attemptsRemaining === 0 && !answeredCorrectly) {
+            alert ('Sorry you lose!')
+          }
+        }
 
 
 
