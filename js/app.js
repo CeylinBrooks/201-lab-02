@@ -4,6 +4,9 @@
 var username = prompt('What is your name?');
 console. log( 'Hello ' + username);
 
+var pointTotal = 0
+
+
 //Q1
 var myName = prompt('Is my name Ceylin?').toLowerCase();
 console.log (myName)
@@ -81,6 +84,42 @@ alert(`Aw fiddlesticks ${username} that guess is too high!`)
 
 //Q7
 
+var whatCountry = ['Tulum','Panama', 'Canada', 'Hawaii','Maldives','Bora Bora'];
+var guessAnswer = prompt(' Can you guess what country I want to vist?');
+var attemptsRemaining = 6;
+var answeredCorrect = false;
+
+while (attemptsRemaining > 0 && !answeredCorrect) {
+    attemptsRemaining--;
+    for (var i = 0; i < whatCountry.length; i++) { 
+        if (guessAnswer === whatCountry[i]) {
+            answeredCorrect = true;
+            alert()
+            
+        }
+    }
+}
+
+
+// var correctAnswers = ['lofi', 'rock', 'rap', 'r&b', 'pop'];
+// var guessAnswer = prompt('Guess music');
+// var attemptsRemaining = 6;
+// var answeredCorrectly = false;
+// while (attemptsRemaining > 0 && !answeredCorrectly) {
+//   attemptsRemaining--;
+//   for (var i = 0; i < correctAnswers.length; i++) {
+//     if (guessAnswer === correctAnswers[i]) {
+//       answeredCorrectly = true;
+//       alert(`Yes I do listen to ${guessAnswer}`);
+//     }
+//   }
+//   if (attemptsRemaining > 0 && !answeredCorrectly) {
+//     guessAnswer = prompt('Sorry that wasn\'t a correct answer please try again!');
+//   }
+//   if (attemptsRemaining === 0 && !answeredCorrectly) {
+//     alert ('Sorry you lose!')
+//   }
+// }
 
 
 
@@ -89,4 +128,5 @@ alert(`Aw fiddlesticks ${username} that guess is too high!`)
 
 
 
-alert (`Good day ${username}, I am happy you stopped by!`)
+
+alert ( `Good day ${username}, I am happy you stopped by!`)
