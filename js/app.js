@@ -16,6 +16,7 @@ if (myName === 'yes'){
     alert('Yes it is, all day EVERYDAY :)')
 } else if (myName === 'no'){
     alert('It is Indeed, but nice try!');
+    pointTotal++;
 }
 
 
@@ -26,7 +27,9 @@ var homeLocation = prompt('Am I from Atlanta?').toLowerCase();
 if(homeLocation === 'yes' || homeLocation === 'y'){
     alert('Yes! I am from Atlanta')
 }else if (homeLocation === 'no' || homeLocation ==='No' )
-    {alert('Actually I am!')}
+    {alert('Actually I am!')
+    pointTotal++;
+}
 
 //console.log('You are correct' + homeLocation 'is my hometown');
 
@@ -36,7 +39,9 @@ var favColor = prompt('Is my favorite color yellow?').toLowerCase();
 if(favColor === 'no'){
     alert('Nope not even close')
 }else if (favColor === 'yes')
-    {alert( 'You are correct, it is purple though!')}
+    {alert( 'You are correct, it is purple though!')
+    pointTotal++;
+}
 
 //console.log('Nope' + favColor + 'is not my favorite color')
 
@@ -46,7 +51,9 @@ var compType = prompt ('Do I use a Mac?').toLowerCase();
 if(compType === 'no' ){
     alert('Right because I use Windows')
 } else if ( compType === 'yes' || compType === 'y' )
-    {alert('Try Again :(')}
+    {alert('Try Again :(')
+    pointTotal++;
+}
 
 // console.log (compType + 'I have a Windows machine')
 
@@ -58,6 +65,7 @@ if ( favAnimal === 'yes') {
     alert('Absolutely, they are the best!');
 } else if (favAnimal === 'no' || favAnimal === 'NO') {
     alert('Are you kidding, Elephants are fantastic!');
+    pointTotal++;
 }
 
 
@@ -106,6 +114,6 @@ while (attemptsRemaining > 0 && !answeredCorrect) {
         }
 
 
-
+alert (`How did you do? You got ${pointTotal}!`)
 
 alert ( `Good day ${username}, I am happy you stopped by!`)
