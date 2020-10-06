@@ -4,7 +4,7 @@
 var username = prompt('What is your name?');
 console. log( 'Hello ' + username);
 
-var pointTotal = 0
+var pointTotal = 0;
 
 
 //Q1
@@ -26,7 +26,7 @@ var homeLocation = prompt('Am I from Atlanta?').toLowerCase();
 
 if(homeLocation === 'yes' || homeLocation === 'y'){
     alert('Yes! I am from Atlanta')
-}else if (homeLocation === 'no' || homeLocation ==='No' )
+}else if (homeLocation === 'no' || homeLocation ==='n' )
     {alert('Actually I am!')
     pointTotal++;
 }
@@ -36,9 +36,9 @@ if(homeLocation === 'yes' || homeLocation === 'y'){
 //Q3
 var favColor = prompt('Is my favorite color yellow?').toLowerCase();
 
-if(favColor === 'no'){
+if(favColor === 'no' || favColor === 'n'){
     alert('Nope not even close')
-}else if (favColor === 'yes')
+}else if (favColor === 'yes' || favColor === 'y')
     {alert( 'You are correct, it is purple though!')
     pointTotal++;
 }
@@ -48,7 +48,7 @@ if(favColor === 'no'){
 //Q4
 var compType = prompt ('Do I use a Mac?').toLowerCase();
 
-if(compType === 'no' ){
+if(compType === 'no' || compType === 'n' ){
     alert('Right because I use Windows')
 } else if ( compType === 'yes' || compType === 'y' )
     {alert('Try Again :(')
@@ -61,9 +61,9 @@ if(compType === 'no' ){
 
 var favAnimal = prompt ('Is my most favorite animal in the world, an Elephant?').toLowerCase();
 
-if ( favAnimal === 'yes') {
+if ( favAnimal === 'yes' || favAnimal === 'y') {
     alert('Absolutely, they are the best!');
-} else if (favAnimal === 'no' || favAnimal === 'NO') {
+} else if (favAnimal === 'no' || favAnimal === 'n') {
     alert('Are you kidding, Elephants are fantastic!');
     pointTotal++;
 }
