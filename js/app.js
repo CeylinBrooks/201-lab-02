@@ -70,7 +70,7 @@ if(!correctGuess){
 }
 //Q7
 var whatCountry = ['tulum', 'panama', 'canada', 'hawaii', 'maldives', 'bora bora'];
-var guessAnswer = prompt(' Can you guess what places do I want to vist?').toLowerCase();
+var guessAnswer = prompt(' Can you guess what places  I want to vist?').toLowerCase();
 var attemptsRemaining = 6;
 var answeredCorrect = false;
 var myArray = [1, 2, 3, 4, 5, 6, 7, 8];
